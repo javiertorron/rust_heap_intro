@@ -1,3 +1,4 @@
+# Ejercicio 2: Gestión de Memoria Dinámica (Heap)
 
 1. **Ubicación Actual:** [Tema 1 -> Capítulo 1.1 -> Sección 1.1.2 -> Apartado: Gestión de Memoria Dinámica (Heap)]
 2. **Concepto Clave:** Introducción a la asignación de memoria en el Heap mediante el uso de `Box<T>`.
@@ -7,7 +8,7 @@
    - Documentación oficial de Rust: `std::boxed::Box`.
 4. **Enunciado del Ejercicio:**
    En el ejercicio anterior trabajaste con tipos de tamaño conocido en el Stack. Ahora, debes crear un programa que mueva un valor entero (`i32`) y una estructura simple al Heap.
-   
+
    **Pasos:**
    - Define una estructura llamada `SecretData` que contenga un campo `value: u64`.
    - En la función `main`, instancia un `i32` y un `SecretData` directamente en el Heap usando `Box`.
